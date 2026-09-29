@@ -1,0 +1,134 @@
+/* MTL basketball flyer kit — shared styles. Letter pages are 816x1056 CSS px (96dpi).
+   Artwork is generated (basketball.svg, court-lines.svg) so the kit ships without
+   photos; a .photo-band variant can replace .court-band once photos land. */
+@font-face { font-family: "Saira Stencil One"; src: url("../assets/fonts/SairaStencilOne-Regular.ttf"); }
+@font-face { font-family: Oswald; src: url("../assets/fonts/Oswald[wght].ttf"); font-weight: 200 700; }
+
+:root {
+  --navy: #0A2D5E; --navy-deep: #071F42; --orange: #F0821E; --orange-light: #FFB466;
+  --cream: #F6F3EE; --white: #FFFFFF;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: #444; }
+body { font-family: Oswald, "Arial Narrow", sans-serif; }
+
+.flyer {
+  width: 816px; height: 1056px; margin: 0 auto; overflow: hidden;
+  display: flex; flex-direction: column; align-items: center;
+  background: radial-gradient(ellipse 120% 55% at 50% -10%, #1a4a8f 0%, var(--navy) 45%, var(--navy-deep) 100%);
+  color: var(--white); text-align: center;
+}
+.flyer--ig { width: 1080px; height: 1350px; }
+.flyer--sq { width: 1080px; height: 1080px; }
+
+.crest { background: var(--white); border-radius: 0 0 18px 18px; padding: 10px 26px 14px; }
+.crest img { height: 110px; display: block; }
+
+.headline { font-family: "Saira Stencil One", Oswald, sans-serif; font-size: 112px; line-height: 0.95; letter-spacing: 4px; margin-top: 8px; }
+.headline .sub { display: block; font-size: 0.55em; letter-spacing: 6px; color: var(--orange-light); }
+.banner-orange { color: var(--orange); font-weight: 700; font-size: 40px; letter-spacing: 2px; text-transform: uppercase; }
+.season { font-weight: 300; font-size: 28px; letter-spacing: 6px; margin-top: 2px; }
+
+/* Court band: generated art in place of a photo. Court lines sit faint behind
+   a big ball on the left and the key facts on the right. */
+.court-band {
+  position: relative; width: 100%; flex: 1; min-height: 0; margin-top: 14px;
+  display: flex; align-items: center; gap: 26px; padding: 10px 40px;
+}
+.court-lines { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.13; pointer-events: none; }
+.ball { position: relative; flex: 0 0 auto; }
+.ball img { width: 300px; display: block; filter: drop-shadow(0 16px 26px rgba(0,0,0,0.5)); }
+.facts { position: relative; flex: 1; text-align: left; }
+.fact-big { font-size: 78px; font-weight: 700; color: var(--orange); line-height: 1; }
+.fact-label { font-size: 24px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px; }
+.fact-line { font-size: 21px; font-weight: 300; line-height: 1.4; }
+.fact-line strong { font-weight: 600; }
+.fact-line + .fact-line { margin-top: 4px; }
+
+/* Evaluation block: the middle-school variant swaps the facts for dates. */
+.evals { position: relative; flex: 1; text-align: left; }
+.evals h2 { font-size: 30px; font-weight: 700; color: var(--orange); text-transform: uppercase; letter-spacing: 1px; line-height: 1.1; }
+.evals .lead { font-size: 19px; font-weight: 300; margin: 6px 0 10px; line-height: 1.35; }
+.evals ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; font-size: 22px; font-weight: 500; }
+.evals .venue { margin-top: 10px; font-size: 19px; font-weight: 300; }
+.evals .venue strong { font-weight: 600; }
+
+/* Division cards, each with its own QR straight to that league's form. */
+.divisions { display: flex; gap: 14px; padding: 16px 28px 0; width: 100%; }
+.division-card {
+  flex: 1; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); border-radius: 10px;
+  padding: 12px 14px; display: flex; align-items: center; gap: 12px; text-align: left;
+}
+.division-text { flex: 1; min-width: 0; }
+.division-card h3 { font-size: 28px; text-transform: uppercase; letter-spacing: 1px; color: var(--orange-light); line-height: 1.1; }
+.division-card .leagues { font-size: 16px; font-weight: 500; margin-top: 2px; }
+.division-card ul { list-style: none; margin-top: 6px; font-size: 15px; font-weight: 300; line-height: 1.35; }
+.qr-box { flex: 0 0 auto; width: 128px; background: var(--white); color: var(--navy-deep); border-radius: 8px; padding: 8px; text-align: center; }
+.qr-box img { width: 100%; display: block; }
+.qr-box .scan { font-weight: 700; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; padding-bottom: 4px; }
+
+.accent-bar { width: 100%; height: 10px; background: var(--orange); margin-top: 16px; }
+.footer-strip { width: 100%; background: var(--cream); color: var(--navy); padding: 12px 20px 16px; font-weight: 500; font-size: 20px; line-height: 1.45; }
+.footer-strip strong { font-weight: 700; }
+
+@media print { html, body { background: none; } .flyer { margin: 0; } }
+@page { size: letter; margin: 0; }
+
+/* Instagram portrait (1080x1350) */
+.flyer--ig .crest img { height: 140px; }
+.flyer--ig .headline { font-size: 150px; }
+.flyer--ig .banner-orange { font-size: 52px; }
+.flyer--ig .season { font-size: 34px; }
+.flyer--ig .court-band { padding: 10px 52px; gap: 34px; }
+.flyer--ig .ball img { width: 390px; }
+.flyer--ig .fact-big { font-size: 100px; }
+.flyer--ig .fact-label { font-size: 30px; }
+.flyer--ig .fact-line { font-size: 27px; }
+.flyer--ig .divisions { gap: 18px; padding: 20px 36px 0; }
+.flyer--ig .division-card h3 { font-size: 34px; }
+.flyer--ig .division-card .leagues { font-size: 20px; }
+.flyer--ig .division-card ul { font-size: 19px; }
+.flyer--ig .qr-box { width: 164px; }
+.flyer--ig .qr-box .scan { font-size: 16px; }
+.flyer--ig .footer-strip { font-size: 26px; padding: 16px 24px 20px; }
+
+/* Square (1080x1080): same pieces, tighter vertical budget. */
+.flyer--sq .crest { padding: 6px 22px 10px; }
+.flyer--sq .crest img { height: 96px; }
+.flyer--sq .headline { font-size: 132px; margin-top: 4px; }
+.flyer--sq .banner-orange { font-size: 46px; }
+.flyer--sq .season { font-size: 30px; }
+.flyer--sq .court-band { padding: 6px 52px; gap: 34px; margin-top: 8px; }
+.flyer--sq .ball img { width: 300px; }
+.flyer--sq .fact-big { font-size: 88px; }
+.flyer--sq .fact-label { font-size: 27px; margin-bottom: 8px; }
+.flyer--sq .fact-line { font-size: 24px; }
+.flyer--sq .divisions { gap: 18px; padding: 12px 36px 0; }
+.flyer--sq .division-card { padding: 10px 14px; }
+.flyer--sq .division-card h3 { font-size: 30px; }
+.flyer--sq .division-card .leagues { font-size: 18px; }
+.flyer--sq .division-card ul { display: none; }
+.flyer--sq .qr-box { width: 140px; }
+.flyer--sq .qr-box .scan { font-size: 14px; }
+.flyer--sq .accent-bar { margin-top: 12px; }
+.flyer--sq .footer-strip { font-size: 24px; padding: 12px 24px 16px; }
+
+/* Wide banner (1200x630): link previews, the site's home page, a Facebook cover. */
+.hero {
+  width: 1200px; height: 630px; margin: 0 auto; overflow: hidden; position: relative;
+  display: flex; align-items: center; gap: 30px; padding: 0 60px;
+  background: radial-gradient(ellipse 90% 120% at 100% 50%, #1a4a8f 0%, var(--navy) 45%, var(--navy-deep) 100%);
+  color: var(--white);
+}
+.hero .court-lines { opacity: 0.12; }
+.hero .crest { position: absolute; top: 0; left: 60px; padding: 8px 18px 10px; }
+.hero .crest img { height: 84px; }
+.hero .copy { position: relative; flex: 1; padding-top: 96px; }
+.hero .kicker { font-size: 26px; font-weight: 500; letter-spacing: 5px; text-transform: uppercase; color: var(--orange-light); }
+.hero .headline { font-size: 116px; margin-top: 0; text-align: left; }
+.hero .banner-orange { font-size: 40px; text-align: left; margin-top: 4px; }
+.hero .fact-line { font-size: 24px; margin-top: 12px; }
+.hero .ball { flex: 0 0 auto; }
+.hero .ball img { width: 360px; }
+.hero .accent-bar { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; height: 14px; }
