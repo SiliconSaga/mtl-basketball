@@ -1,0 +1,16 @@
+name: Flyer export
+
+on:
+  pull_request:
+    paths: ['flyers/**']
+
+# No workflow-level grants; the flyers job declares exactly what it needs.
+permissions: {}
+
+jobs:
+  flyers:
+    permissions:
+      # Commit regenerated flyer exports back to this PR's branch — the
+      # job's only repository write.
+      contents: write
+    uses: SiliconSaga/volundr/.github/workflows/flyer-export.yml@main

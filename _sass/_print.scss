@@ -1,0 +1,43 @@
+@media print {
+  .site-header,
+  .site-footer,
+  .page-tools,
+  .nav-toggle {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .quick-ref {
+    background: none;
+    border: 1px solid #ccc;
+  }
+
+  .age-badge {
+    background: none;
+    color: #000;
+    border: 1px solid #000;
+  }
+
+  .picker-card,
+  .sport-card {
+    border: 1px solid #ccc;
+    background: none;
+    color: #000;
+  }
+
+}
