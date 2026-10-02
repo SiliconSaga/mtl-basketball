@@ -27,7 +27,11 @@ The dates are also listed on the [middle school registration form](https://regis
 
 Gym clothes and sneakers. Basketballs are provided.
 
-> **Coordinator input needed:** which door to use at Edison, and what happens if a player can't make any of the five dates.
+The [Edison Middle School]({{ site.baseurl }}/gyms/edison/) page has a map showing where to park and the path to the gym door.
+
+## Can't Make Any of the Dates?
+
+Email [basketball.mtl@gmail.com](mailto:basketball.mtl@gmail.com) and the coordinators will work something out.
 
 ## Questions?
 

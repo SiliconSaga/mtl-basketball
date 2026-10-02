@@ -14,7 +14,7 @@ Two leagues run in the {{ site.data.season.name }} season, each with a boys divi
 {% for d in site.data.divisions %}- **{{ d.name }}** — {{ d.grades }}, {{ d.leagues | downcase }}{% if d.evaluation %}; one [evaluation night]({{ site.baseurl }}/evaluations/) required{% endif %}
 {% endfor %}
 
-> **Coordinator input needed:** whether a player may play up or down a level, and who decides.
+If you think your child should play up or down a level, email [basketball.mtl@gmail.com](mailto:basketball.mtl@gmail.com) and league staff will sort it out.
 
 ## The Season
 
