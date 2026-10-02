@@ -11,25 +11,27 @@ MTL Basketball is an inclusive in-house league for players of varying skill leve
 
 Two leagues run in the {{ site.data.season.name }} season, each with a boys division and a girls division:
 
-{% for d in site.data.divisions %}- **{{ d.name }}** — {{ d.leagues }}{% if d.evaluation %}; one [evaluation night]({{ site.baseurl }}/evaluations/) required{% endif %}
+{% for d in site.data.divisions %}- **{{ d.name }}** — {{ d.grades }}, {{ d.leagues | downcase }}{% if d.evaluation %}; one [evaluation night]({{ site.baseurl }}/evaluations/) required{% endif %}
 {% endfor %}
 
-> **Coordinator input needed:** the grade range each league covers, and whether a player may play up or down a level.
+> **Coordinator input needed:** whether a player may play up or down a level, and who decides.
 
 ## The Season
 
+The season runs roughly {{ site.data.season.season_span }}.
+
 - **Registration** is open now and closes {{ site.data.season.close_date }}. The early-bird rate of {{ site.data.season.early_fee }} runs through {{ site.data.season.early_deadline }}; after that it's {{ site.data.season.fee }}.
 - **Middle school evaluations** run on five evenings in October and November — see [Evaluations]({{ site.baseurl }}/evaluations/). Elementary players don't need one.
-- **Practices** aim to start in {{ site.data.season.practices_start }}.
-- **Games** begin in {{ site.data.season.games_start }}.
+- **Practices** aim to start in {{ site.data.season.practices_start }}. How often a team practices depends on its volunteer coaches' availability — about two nights a week is typical.
+- **Games** begin in {{ site.data.season.games_start }}. Elementary games are usually on Sunday afternoons; middle school games are usually on weeknights, Monday through Thursday.
 
-> **Coordinator input needed:** how many games a season typically has, what day(s) games and practices land on, and roughly when the season wraps up (playoffs?).
+Days and times may shift depending on how many players register in each league.
 
 ## Making Teams
 
-Middle school teams are built from the evaluation nights so the league stays balanced. Everyone running MTL is a volunteer, coaches included, and many of them are barely more than another parent who was handed a bag of gear and a schedule — so please give the team-making process some grace.
+Middle school teams are built from the evaluation nights so the league stays balanced. Elementary teams are formed mainly by school, though that too depends on how many players sign up from each school. Friend and coach requests aren't taken for either league.
 
-> **Coordinator input needed:** how elementary teams are formed (by school? by grade?), and whether friend or coach requests are considered.
+Everyone running MTL is a volunteer, coaches included, and many of them are barely more than another parent who was handed a bag of gear and a schedule — so please give the team-making process some grace.
 
 ## On the Sideline
 
@@ -42,11 +44,11 @@ The full [24-hour rule](https://volunteering.mountaintopleague.com/sportsmanship
 
 ## Where We Play
 
-Evaluations are at [Edison Middle School]({{ site.baseurl }}/gyms/edison/). Practice and game gyms are on the [Gyms]({{ site.baseurl }}/gyms/) page as they're confirmed.
+Evaluations are at [Edison Middle School]({{ site.baseurl }}/gyms/edison/). Practices and games are in West Orange school gyms, and the specific gym can vary through the season — see [Gyms]({{ site.baseurl }}/gyms/).
 
 ## What You'll Need
 
-> **Coordinator input needed:** what players should bring and wear (sneakers, ball size per league, whether a reversible jersey is provided), and whether anything is required for the evaluation night.
+Workout clothes and sneakers. The league provides the basketballs, for evaluations, practices, and games.
 
 ## Registration
 

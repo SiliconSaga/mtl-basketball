@@ -5,7 +5,15 @@ title: FAQ
 
 ## Which league is my child in?
 
-There are two: **Elementary School** and **Middle School**, each with a boys division and a girls division. Register for the one that matches your child's school level — see [How It Works]({{ site.baseurl }}/how-it-works/). If your child sits on a boundary, email us.
+There are two, each with a boys division and a girls division: **Elementary School** for grades 4–5 and **Middle School** for grades 6–8. Register for the one that matches your child's grade this school year — see [How It Works]({{ site.baseurl }}/how-it-works/).
+
+## When are games and practices?
+
+The season runs roughly {{ site.data.season.season_span }}. Elementary games are usually on Sunday afternoons and middle school games on weeknights, Monday through Thursday. Practices are on weeknights, typically about two a week depending on the coaches' availability. Days and times may shift depending on how many players register.
+
+## Can my child be on a team with a friend, or with a particular coach?
+
+Friend and coach requests aren't taken. Elementary teams are formed mainly by school, and middle school teams are balanced using the evaluation nights.
 
 ## How much does it cost?
 
@@ -25,11 +33,11 @@ Yes. Travel-team players who want to play MTL Basketball too get a discount code
 
 ## Where are games and practices?
 
-Evaluations are at [Edison Middle School]({{ site.baseurl }}/gyms/edison/). Practice and game gyms are listed on the [Gyms]({{ site.baseurl }}/gyms/) page as the coordinators confirm them.
+In West Orange school gyms; the specific gym can vary through the season. Evaluations are at [Edison Middle School]({{ site.baseurl }}/gyms/edison/). See [Gyms]({{ site.baseurl }}/gyms/).
 
 ## What does my child need to bring?
 
-*Answer coming from the coordinators — email [basketball.mtl@gmail.com](mailto:basketball.mtl@gmail.com) in the meantime.*
+Workout clothes and sneakers. The league provides the basketballs.
 
 ## I disagree with a call or a coaching decision. What should I do?
 

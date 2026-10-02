@@ -13,15 +13,19 @@ Interested in coaching or assisting? Fill in the short coaches interest form and
 
 The cross-sport [MTL Volunteering guide](https://volunteering.mountaintopleague.com/) covers what to expect as a volunteer: the League House, gear, sportsmanship, and safety.
 
-> **Coordinator input needed:** what coaching involves for basketball specifically — practice nights per week, whether a background check or any training is required, and what gear the league provides.
+### What coaching involves
+
+- **Practices:** the schedule is set around each coach's availability, typically about two nights a week.
+- **Background check:** required for first-time MTL coaches. If you've recently coached in another MTL sport, your existing check should still be valid.
+- **What the league provides:** basketballs, scorebooks, first aid kits, cones, a coach's bag, and the gym or practice space.
 
 ## Sponsor a Team or the League
 
 Local businesses and families can sponsor a team or the league for the {{ site.data.season.name }} season.
 
-[**MTL Basketball 26–27 Sponsorship Interest Form →**](https://forms.gle/vi9jTD5b2vFZ6EQD8)
+Sponsorship levels and what each includes are described on the form itself.
 
-> **Coordinator input needed:** sponsorship levels and what a sponsor receives (jersey placement, a mention here, a banner at the gym?).
+[**MTL Basketball 26–27 Sponsorship Interest Form →**](https://forms.gle/vi9jTD5b2vFZ6EQD8)
 
 ## Other Ways to Help
 

@@ -23,7 +23,11 @@ All sessions are at [{{ site.data.evaluations.venue }}]({{ site.baseurl }}{{ sit
 
 The dates are also listed on the [middle school registration form](https://registration.teamsnap.com/form/81126). Please [register]({{ site.baseurl }}/register/) before coming to an evaluation.
 
-> **Coordinator input needed:** what to wear and bring (sneakers, water, a ball?), which door to use at Edison, and what happens if a player can't make any of the five dates.
+## What to Wear
+
+Gym clothes and sneakers. Basketballs are provided.
+
+> **Coordinator input needed:** which door to use at Edison, and what happens if a player can't make any of the five dates.
 
 ## Questions?
 

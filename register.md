@@ -6,13 +6,13 @@ title: Register
 edit_path: _data/divisions.yml
 ---
 
-All MTL Basketball sign-ups for the {{ site.data.season.name }} season in one place. Registration runs through TeamSnap; pick the league that matches your child's school level. Each league has a boys division and a girls division.
+All MTL Basketball sign-ups for the {{ site.data.season.name }} season in one place. Registration runs through TeamSnap; pick the league that matches your child's grade this school year. Each league has a boys division and a girls division.
 
 <div class="key-dates">
   <div class="key-date"><strong>{{ site.data.season.early_fee }} early bird</strong><small>through {{ site.data.season.early_deadline }}</small></div>
   <div class="key-date"><strong>{{ site.data.season.fee }} regular</strong><small>after {{ site.data.season.early_deadline }}</small></div>
   <div class="key-date"><strong>Registration closes</strong><small>{{ site.data.season.close_date }}</small></div>
-  <div class="key-date"><strong>Season</strong><small>practices from {{ site.data.season.practices_start }}, games in {{ site.data.season.games_start }}</small></div>
+  <div class="key-date"><strong>Season</strong><small>{{ site.data.season.season_span }} &middot; practices from {{ site.data.season.practices_start }}, games from {{ site.data.season.games_start }}</small></div>
 </div>
 
 {% for d in site.data.divisions %}
@@ -21,10 +21,8 @@ All MTL Basketball sign-ups for the {{ site.data.season.name }} season in one pl
 **{{ d.leagues }}**{% if d.grades != "" %} &middot; {{ d.grades }}{% endif %} &middot; **{{ site.data.season.fee }}** ({{ site.data.season.early_fee }} early bird through {{ site.data.season.early_deadline }})
 
 {% for item in d.details %}- {{ item }}
-{% endfor %}
-{% if d.grades == "" %}
-> **Coordinator input needed:** which grades this league covers. Until that's confirmed here, use your best judgment on "elementary" vs "middle school" and email [basketball.mtl@gmail.com](mailto:basketball.mtl@gmail.com) if your child sits on the boundary.
-{% endif %}
+{% endfor %}- Games are usually {{ d.games }}, subject to change based on participation
+
 {% if d.evaluation %}
 Middle school players also attend **one** [evaluation night]({{ site.baseurl }}/evaluations/) — about 15–20 minutes, any time between 6:30 and 8:30 pm on one of five dates in October and November. The dates are also listed on the registration form.
 {% endif %}

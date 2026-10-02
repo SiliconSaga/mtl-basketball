@@ -1,21 +1,21 @@
 # One entry per registration form. Fees and dates live in season.yml; this
-# file carries what differs per division. `grades` is empty until the
-# coordinators confirm the grade range each league covers — pages render a
-# "coordinator input needed" note while it is blank.
+# file carries what differs per division.
 - name: Elementary School
   slug: elementary
   leagues: "Boys league and girls league"
-  grades: ""
+  grades: "Grades 4–5"
+  games: "Sunday afternoons"
   details:
     - "In-house league — teams made up of West Orange kids, games in town"
-    - "Skill development and learning the game the right way, at every level"
+    - "Teams formed mainly by school"
   register_url: "https://registration.teamsnap.com/form/81079"
   evaluation: false
 
 - name: Middle School
   slug: middle-school
   leagues: "Boys league and girls league"
-  grades: ""
+  grades: "Grades 6–8"
+  games: "weeknights, Monday–Thursday"
   details:
     - "In-house league — teams made up of West Orange kids, games in town"
     - "One evaluation night required before teams are made"
