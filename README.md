@@ -34,8 +34,8 @@ Anything the coordinators haven't confirmed yet is marked on the page as **Coord
 ## Previewing and publishing
 
 - **Every PR gets a live preview**: a comment appears on the PR with a link to a full preview of the changed site, plus a visual diff against the current site. Review those, then merge — the live site updates within a couple of minutes.
-- **Local preview** (optional): `bundle install` once, then `bundle exec jekyll serve` and open <http://localhost:4000/mtl-basketball/>.
-- **Live site**: <https://siliconsaga.github.io/mtl-basketball/> for now; the `basketball.mountaintopleague.com` subdomain is a later PR (CNAME file plus the `url`/`baseurl` flip in `_config.yml`), after which the old links redirect.
+- **Local preview** (optional): `bundle install` once, then `bundle exec jekyll serve` and open <http://localhost:4000/>.
+- **Live site**: <https://basketball.mountaintopleague.com/> (old `siliconsaga.github.io/mtl-basketball/` links redirect there).
 - Publishing is merge-gated: nothing reaches the live site without a human merging a PR.
 
 ## The bigger picture

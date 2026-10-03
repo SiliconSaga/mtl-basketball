@@ -2,11 +2,11 @@ title: MTL Basketball
 description: >-
   MTL Basketball is part of the Mountain Top League, an all-volunteer organization
   serving the children of West Orange, NJ since 1959.
-# Served from the SiliconSaga Pages path until the basketball subdomain is
-# wired up. The subdomain flip is a later PR: add the CNAME file and set
-# url to https://basketball.mountaintopleague.com with an empty baseurl.
-url: "https://siliconsaga.github.io"
-baseurl: "/mtl-basketball"
+# Served at the basketball subdomain; the CNAME file at the repo root rides the
+# deploy to gh-pages, where GitHub Pages picks the domain up. Old
+# siliconsaga.github.io/mtl-basketball/ URLs redirect here automatically.
+url: "https://basketball.mountaintopleague.com"
+baseurl: ""
 
 # Base for the "Suggest an edit" button on every page: the page's source path
 # is appended, landing in GitHub's editor for that file.
