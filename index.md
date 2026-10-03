@@ -15,7 +15,7 @@ Registration is open for both leagues. Each has a boys league and a girls league
 {% for d in site.data.divisions %}
   <a href="{{ site.baseurl }}/register/#{{ d.slug }}" class="picker-card">
     {{ d.name }}
-    <small>{{ d.leagues }}{% if d.evaluation %} &middot; evaluation required{% endif %}</small>
+    <small>{{ d.grades }} &middot; boys &amp; girls{% if d.evaluation %} &middot; evaluation required{% endif %}</small>
   </a>
 {% endfor %}
 </div>
@@ -24,7 +24,7 @@ Registration is open for both leagues. Each has a boys league and a girls league
   <div class="key-date"><strong>{{ site.data.season.early_fee }} early bird</strong><small>through {{ site.data.season.early_deadline }}, then {{ site.data.season.fee }}</small></div>
   <div class="key-date"><strong>Registration closes</strong><small>{{ site.data.season.close_date }}</small></div>
   <div class="key-date"><strong>Practices begin</strong><small>{{ site.data.season.practices_start }}</small></div>
-  <div class="key-date"><strong>Games begin</strong><small>{{ site.data.season.games_start }}</small></div>
+  <div class="key-date"><strong>Games begin</strong><small>{{ site.data.season.games_start }} &middot; season runs {{ site.data.season.season_span }}</small></div>
 </div>
 
 [**Go to registration →**]({{ site.baseurl }}/register/)

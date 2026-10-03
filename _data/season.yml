@@ -1,6 +1,8 @@
-# Season-wide facts, quoted from the basketball coordinators' 2026-27
-# registration announcement. Home, Register, How It Works, and FAQ all read
-# from here — change a date once and every page follows.
+# Season-wide facts from the basketball coordinators' 2026-27 announcement
+# and their answers on the draft site. Home, Register, How It Works, and FAQ
+# all read from here — change a date once and every page follows.
+# The coordinators asked that the number of games NOT be published: it
+# varies with participation.
 name: "Winter 2026–27"
 fee: "$135"
 early_fee: "$110"
@@ -8,3 +10,4 @@ early_deadline: "October 4, 2026"
 close_date: "November 10, 2026"
 practices_start: "the first or second week of December"
 games_start: "January"
+season_span: "December through March"
