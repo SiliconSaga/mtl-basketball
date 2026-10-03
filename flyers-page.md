@@ -3,7 +3,7 @@ layout: page
 title: Flyers
 ---
 
-Season flyers, ready to print, email, or post. The artwork is generated (no photos yet) so it can go out today; swap in player photos later without changing the layout.
+Season flyers, ready to print, email, or post, in two styles: generated artwork, and a "Reach for It" version with game photos.
 
 ## {{ site.data.season.name }} Season
 
@@ -14,6 +14,16 @@ Season flyers, ready to print, email, or post. The artwork is generated (no phot
 - [Wide banner for link previews and the site — PNG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-hero.png)
 
 Live previews: [combined]({{ site.baseurl }}/flyers/basketball-2026/) &middot; [middle school]({{ site.baseurl }}/flyers/basketball-2026/middle-school.html) &middot; [instagram]({{ site.baseurl }}/flyers/basketball-2026/instagram.html) &middot; [square]({{ site.baseurl }}/flyers/basketball-2026/square.html) &middot; [banner]({{ site.baseurl }}/flyers/basketball-2026/hero.html)
+
+## "Reach for It" — with photos
+
+The same information around two game photos: a boys game and a girls game, each caught at the moment two players leap for the ball.
+
+- [Letter flyer — PDF]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-reach.pdf) &middot; [PNG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-reach.png)
+- [Instagram portrait — JPEG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-reach-instagram.jpg)
+- [Square for Facebook or Instagram — JPEG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-reach-square.jpg)
+
+Live previews: [letter]({{ site.baseurl }}/flyers/basketball-2026/reach.html) &middot; [instagram]({{ site.baseurl }}/flyers/basketball-2026/reach-instagram.html) &middot; [square]({{ site.baseurl }}/flyers/basketball-2026/reach-square.html)
 
 Each division carries its own QR code, pointing straight at that league's TeamSnap form.
 

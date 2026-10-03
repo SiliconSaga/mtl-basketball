@@ -52,4 +52,4 @@ Want to coach or sponsor a team? DM us or email — every coach is a volunteer. 
 
 - The "link in bio" line assumes the Instagram bio can hold both TeamSnap links (or a link page). If not, swap it for the two URLs written out.
 - Emoji and hashtags are suggestions; match whatever the soccer and hockey posts have used.
-- If the coordinators supply playoff photos before posting, a photo post tends to travel further than artwork; the flyer can go second.
+- Photo versions exist: `mtl-basketball-2026-reach-square.jpg` and `mtl-basketball-2026-reach-instagram.jpg` pair a boys game and a girls game, each at the moment two players leap for the ball. A photo post tends to travel further than artwork, so lead with these and keep the plain artwork for a reminder post (for example before the October 4 early-bird deadline).

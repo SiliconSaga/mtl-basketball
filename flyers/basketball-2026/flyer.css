@@ -133,3 +133,53 @@ body { font-family: Oswald, "Arial Narrow", sans-serif; }
 .hero .ball { flex: 0 0 auto; }
 .hero .ball img { width: 360px; }
 .hero .accent-bar { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; height: 14px; }
+
+/* "Reach for it" photo variants: the boys and girls photos as matching
+   panels. Both crops (flyers/assets/reach-*.jpg) share size and aspect and put
+   the ball at the same height, so object-position: top keeps the two jumps
+   level. The tag sits across the gap just above both balls. */
+.reach-pair { position: relative; display: flex; gap: 12px; width: 100%; flex: 1; min-height: 0; padding: 0 28px; margin-top: 30px; }
+.reach-panel { position: relative; flex: 1; overflow: hidden; border-radius: 10px; box-shadow: 0 8px 26px rgba(0,0,0,0.45); }
+.reach-panel img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.reach-label {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 40px 14px 12px; text-align: left;
+  background: linear-gradient(to top, rgba(7,31,66,0.92) 0%, rgba(7,31,66,0.6) 55%, rgba(7,31,66,0) 100%);
+}
+.reach-label strong { display: block; font-size: 34px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--orange-light); line-height: 1; }
+.reach-label span { font-size: 17px; font-weight: 400; }
+.reach-tag {
+  position: absolute; left: 50%; top: 0; transform: translate(-50%, -40%); z-index: 2;
+  background: var(--orange); color: var(--navy-deep); border-radius: 999px; padding: 4px 22px 6px;
+  font-family: "Saira Stencil One", Oswald, sans-serif; font-size: 30px; letter-spacing: 3px; white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+.reach-facts { width: 100%; padding: 12px 28px 0; font-size: 21px; font-weight: 300; line-height: 1.35; }
+.reach-facts strong { font-weight: 600; color: var(--orange-light); }
+.flyer--reach .headline { font-size: 96px; }
+.flyer--reach .banner-orange { font-size: 36px; }
+.flyer--reach .season { font-size: 24px; }
+.flyer--reach .divisions { padding-top: 12px; }
+.flyer--reach .division-card { padding: 8px 12px; }
+.flyer--reach .division-card ul { display: none; }
+.flyer--reach .qr-box { width: 112px; }
+.flyer--reach .accent-bar { margin-top: 12px; }
+
+.flyer--ig.flyer--reach .headline { font-size: 132px; }
+.flyer--ig.flyer--reach .banner-orange { font-size: 46px; }
+.flyer--ig.flyer--reach .season { font-size: 30px; }
+.flyer--ig .reach-pair { gap: 16px; padding: 0 36px; margin-top: 40px; }
+.flyer--ig .reach-tag { font-size: 40px; padding: 6px 28px 8px; }
+.flyer--ig .reach-label strong { font-size: 44px; }
+.flyer--ig .reach-label span { font-size: 22px; }
+.flyer--ig .reach-facts { font-size: 27px; padding: 16px 36px 0; }
+.flyer--ig.flyer--reach .qr-box { width: 150px; }
+
+.flyer--sq.flyer--reach .crest img { height: 84px; }
+.flyer--sq.flyer--reach .headline { font-size: 108px; }
+.flyer--sq.flyer--reach .banner-orange { font-size: 40px; }
+.flyer--sq.flyer--reach .season { display: none; }
+.flyer--sq .reach-pair { gap: 16px; padding: 0 36px; margin-top: 28px; }
+.flyer--sq .reach-tag { font-size: 36px; }
+.flyer--sq .reach-label strong { font-size: 40px; }
+.flyer--sq .reach-label span { font-size: 20px; }
+.flyer--sq.flyer--reach .qr-box { width: 128px; }
