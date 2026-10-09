@@ -29,6 +29,12 @@ Registration is open for both leagues. Each has a boys league and a girls league
 
 [**Go to registration →**]({{ site.baseurl }}/register/)
 
+## Latest News
+
+{% include post-list.html limit=2 %}
+
+[All news, and how to follow it →]({{ site.baseurl }}/news/)
+
 ## Middle School Players: One Evaluation Night
 
 Middle school players attend one short evaluation so we can make balanced teams. Five dates to choose from at Edison Middle School, any time between 6:30 and 8:30 pm — details on the [Evaluations]({{ site.baseurl }}/evaluations/) page.

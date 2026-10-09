@@ -13,6 +13,7 @@ No agent handy? Every content page on the live site has a **Suggest an edit** bu
 | You want to change… | Edit this file |
 |---|---|
 | Home page | `index.md` |
+| **News posts** (announcements, social posts) | `_posts/` — one file per post, images in `assets/news/<post>/`; see [News posts](#news-posts) |
 | Fees, deadlines, season dates | `_data/season.yml` (Home, Register, How It Works, and FAQ update automatically) |
 | Leagues, grade ranges, sign-up links | `_data/divisions.yml` |
 | Evaluation nights | `_data/evaluations.yml` |
@@ -23,6 +24,7 @@ No agent handy? Every content page on the live site has a **Suggest an edit** bu
 | FAQ questions & answers | `faq.md` |
 | Contact info | `contact.md` |
 | Menu | `_data/nav.yml` |
+| The "Follow" box on News and posts | `_includes/follow.html` |
 | The Print / Suggest an edit buttons | `_includes/page-tools.html` (edit-link base in `_config.yml`) |
 | The colors and look | `_sass/_base.scss` |
 | Site title / description | `_config.yml` |
@@ -30,6 +32,19 @@ No agent handy? Every content page on the live site has a **Suggest an edit** bu
 | **Flyers** (print/social) | `flyers/basketball-2026/` — edit the HTML and open a PR; the PDFs/PNGs/JPEGs in `exports/` regenerate automatically (locally, with volundr cloned alongside this repo: `bash ../volundr/flyer-kit/export.sh flyers/basketball-2026`, see [volundr's flyer-kit](https://github.com/SiliconSaga/volundr/tree/main/flyer-kit)) |
 
 Anything the coordinators haven't confirmed yet is marked on the page as **Coordinator input needed** — those callouts are the to-do list. `_docs/` holds the trustee question list and the social-post drafts.
+
+## News posts
+
+When a post goes out on Facebook or Instagram, keep it here too: *"Save today's post to the site news."* Each post is one file in `_posts/` named `YYYY-MM-DD-short-title.md`, with the post text as the body (links written as links, no hashtags) and this front matter:
+
+| Field | Holds |
+|---|---|
+| `title`, `description` | Headline and one-line summary, shown in lists and feeds |
+| `image`, `image_alt` | The main picture, usually the image that was posted |
+| `downloads` | Other sizes, as a list of `label` and `file` |
+| `featured_until` | Optional date; the league-wide site features the post until then |
+
+Images made for one post go in `assets/news/<post file name>/`; a post about the season flyers points at `flyers/basketball-2026/exports/` instead. Posts show on the News page and the home page, and publish two feeds: `/feed.xml` (Atom, for feed readers; the News page has one-click follow buttons) and `/news/feed.json` (JSON Feed, read by the league-wide site).
 
 ## Previewing and publishing
 

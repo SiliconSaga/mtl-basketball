@@ -15,6 +15,17 @@ github_edit_base: "https://github.com/SiliconSaga/mtl-basketball/edit/main/"
 permalink: pretty
 markdown: kramdown
 
+# News posts (_posts/) publish an Atom feed at /feed.xml for feed readers, and
+# news/feed.json carries the same posts as a JSON Feed with the extra fields
+# the league-wide site reads (sport, featured_until, image).
+plugins:
+  - jekyll-feed
+
+feed:
+  posts_limit: 20
+
+sport: basketball
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -31,3 +42,9 @@ defaults:
       path: ""
     values:
       layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /news/:year/:month/:title/
