@@ -17,7 +17,7 @@ Friend and coach requests aren't taken. Elementary teams are formed mainly by sc
 
 ## How much does it cost?
 
-{{ site.data.season.fee }} per player, or {{ site.data.season.early_fee }} with the early-bird rate through {{ site.data.season.early_deadline }}. Current numbers and sign-up links are always on the [Register]({{ site.baseurl }}/register/) page.
+{{ site.data.season.fee }} per player. Current numbers and sign-up links are always on the [Register]({{ site.baseurl }}/register/) page.
 
 ## When does registration close?
 

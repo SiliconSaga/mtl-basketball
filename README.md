@@ -3,7 +3,7 @@
 The website for **Mountain Top League basketball** (West Orange, NJ). It's a plain, file-based Jekyll site: every page is a simple text file you (or your AI agent) can edit. No logins to a website builder, no waiting on anyone else.
 
 > **The easiest way to change anything: just ask your agent.**
-> *"Add the practice gyms."* · *"Change the early-bird deadline."* · *"Put the playoff photo on the home page."*
+> *"Add the practice gyms."* · *"Change the registration deadline."* · *"Put the playoff photo on the home page."*
 > Then look over the PR it opens — every PR automatically gets a **preview site link and a visual diff** so you can see exactly what changes before it goes live.
 
 No agent handy? Every content page on the live site has a **Suggest an edit** button (on tablet-width screens and up) that opens the file behind that page in GitHub's editor — the change comes back as a PR for the league to review, same as above. The flyer previews are standalone print artifacts and don't carry it; edit those under `flyers/` directly.
