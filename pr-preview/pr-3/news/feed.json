@@ -1,0 +1,31 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "MTL Basketball news",
+  "home_page_url": "https://basketball.mountaintopleague.com/pr-preview/pr-3/news/",
+  "feed_url": "https://basketball.mountaintopleague.com/pr-preview/pr-3/news/feed.json",
+  "description": "MTL Basketball is part of the Mountain Top League, an all-volunteer organization serving the children of West Orange, NJ since 1959.",
+  "language": "en-US",
+  "_mtl": { "sport": "basketball", "site_url": "https://basketball.mountaintopleague.com/pr-preview/pr-3/" },
+  "items": [
+    {
+      "id": "https://basketball.mountaintopleague.com/pr-preview/pr-3/news/2026/10/coaches-wanted/",
+      "url": "https://basketball.mountaintopleague.com/pr-preview/pr-3/news/2026/10/coaches-wanted/",
+      "title": "Coaches wanted for Winter 2026–27",
+      "summary": "Every MTL coach is a volunteer, and we need more for the coming season. Registration is still open until November 10.",
+      "content_html": "<p>Every MTL coach is a volunteer: parents and neighbors who said yes. Could the open spot be yours?</p>\n\n<ul>\n  <li>About two practices a week</li>\n  <li>The league provides basketballs, first aid kits, a coach’s bag, and the gym</li>\n  <li>First-time MTL coaches complete a background check</li>\n</ul>\n\n<p>Interested? Fill in the short <a href=\"https://forms.gle/pEtTjuadSrFYRGPs7\">coaches form</a>, or read more on <a href=\"/pr-preview/pr-3/get-involved/\">Get Involved</a>.</p>\n\n<p>Registration is still open: $135, boys and girls leagues for grades 4–8, closing November 10. Middle school <a href=\"/pr-preview/pr-3/evaluations/\">evaluation nights</a> start October 19 at Edison Middle School. Everything is on the <a href=\"/pr-preview/pr-3/register/\">registration page</a>.</p>\n",
+      "image": "https://basketball.mountaintopleague.com/pr-preview/pr-3/assets/news/2026-10-09-coaches-wanted/mtl-basketball-coaches-portrait.jpg",
+      "date_published": "2026-10-09T00:00:00+00:00",
+      "_mtl": { "sport": "basketball", "featured_until": "2026-11-10" }
+    },
+    {
+      "id": "https://basketball.mountaintopleague.com/pr-preview/pr-3/news/2026/10/registration-open/",
+      "url": "https://basketball.mountaintopleague.com/pr-preview/pr-3/news/2026/10/registration-open/",
+      "title": "Registration is open for Winter 2026–27",
+      "summary": "Boys and girls leagues for grades 4–5 and 6–8, with a season running December through March. Registration closes November 10.",
+      "content_html": "<p>MTL Basketball registration is open for Winter 2026–27, with boys and girls leagues for elementary (grades 4–5) and middle school (grades 6–8) players. MTL Basketball is an inclusive in-house league for every skill level: local teams, games in town, a focus on skill development and learning the game the right way, and above all making sure everyone has a blast.</p>\n\n<ul>\n  <li>$110 early bird through October 4, then $135</li>\n  <li>Registration closes November 10</li>\n  <li>The season runs December through March: practices aim to start the first or second week of December, and games begin in January</li>\n</ul>\n\n<p>Register for the <a href=\"https://registration.teamsnap.com/form/81079\">elementary league</a> or the <a href=\"https://registration.teamsnap.com/form/81126\">middle school league</a>, or read the <a href=\"/pr-preview/pr-3/register/\">registration page</a> first.</p>\n\n<p>Middle school players attend one short <a href=\"/pr-preview/pr-3/evaluations/\">evaluation night</a> (about 15–20 minutes, arrive any time 6:30–8:30 pm) so we can make balanced teams. Pick any date at Edison Middle School: October 19, 21, 27, 29, or November 10.</p>\n\n<p>Made the West Orange Travel Team and want to play MTL as well? West Orange Rec will send you a discount code once the team is set.</p>\n\n<p>Every coach is a volunteer. Want to <a href=\"https://forms.gle/pEtTjuadSrFYRGPs7\">coach</a> or <a href=\"https://forms.gle/vi9jTD5b2vFZ6EQD8\">sponsor</a> a team? Questions go to <a href=\"mailto:basketball.mtl@gmail.com\">basketball.mtl@gmail.com</a>.</p>\n\n<p><em>The flyer images are the current season flyers, so they show today’s details rather than the ones at the time of posting.</em></p>\n",
+      "image": "https://basketball.mountaintopleague.com/pr-preview/pr-3/flyers/basketball-2026/exports/mtl-basketball-2026-reach-instagram.jpg",
+      "date_published": "2026-10-03T00:00:00+00:00",
+      "_mtl": { "sport": "basketball", "featured_until": "2026-11-10" }
+    }
+  ]
+}
