@@ -21,13 +21,19 @@ Registration is open for both leagues. Each has a boys league and a girls league
 </div>
 
 <div class="key-dates">
-  <div class="key-date"><strong>{{ site.data.season.early_fee }} early bird</strong><small>through {{ site.data.season.early_deadline }}, then {{ site.data.season.fee }}</small></div>
+  <div class="key-date"><strong>{{ site.data.season.fee }} per player</strong><small>either league</small></div>
   <div class="key-date"><strong>Registration closes</strong><small>{{ site.data.season.close_date }}</small></div>
   <div class="key-date"><strong>Practices begin</strong><small>{{ site.data.season.practices_start }}</small></div>
   <div class="key-date"><strong>Games begin</strong><small>{{ site.data.season.games_start }} &middot; season runs {{ site.data.season.season_span }}</small></div>
 </div>
 
 [**Go to registration →**]({{ site.baseurl }}/register/)
+
+## Latest News
+
+{% include post-list.html limit=2 %}
+
+[All news, and how to follow it →]({{ site.baseurl }}/news/)
 
 ## Middle School Players: One Evaluation Night
 

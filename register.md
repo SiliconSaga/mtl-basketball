@@ -9,8 +9,7 @@ edit_path: _data/divisions.yml
 All MTL Basketball sign-ups for the {{ site.data.season.name }} season in one place. Registration runs through TeamSnap; pick the league that matches your child's grade this school year. Each league has a boys division and a girls division.
 
 <div class="key-dates">
-  <div class="key-date"><strong>{{ site.data.season.early_fee }} early bird</strong><small>through {{ site.data.season.early_deadline }}</small></div>
-  <div class="key-date"><strong>{{ site.data.season.fee }} regular</strong><small>after {{ site.data.season.early_deadline }}</small></div>
+  <div class="key-date"><strong>{{ site.data.season.fee }} per player</strong><small>either league</small></div>
   <div class="key-date"><strong>Registration closes</strong><small>{{ site.data.season.close_date }}</small></div>
   <div class="key-date"><strong>Season</strong><small>{{ site.data.season.season_span }} &middot; practices from {{ site.data.season.practices_start }}, games from {{ site.data.season.games_start }}</small></div>
 </div>
@@ -18,7 +17,7 @@ All MTL Basketball sign-ups for the {{ site.data.season.name }} season in one pl
 {% for d in site.data.divisions %}
 ## {{ d.name }} {#{{ d.slug }}}
 
-**{{ d.leagues }}**{% if d.grades != "" %} &middot; {{ d.grades }}{% endif %} &middot; **{{ site.data.season.fee }}** ({{ site.data.season.early_fee }} early bird through {{ site.data.season.early_deadline }})
+**{{ d.leagues }}**{% if d.grades != "" %} &middot; {{ d.grades }}{% endif %} &middot; **{{ site.data.season.fee }}**
 
 {% for item in d.details %}- {{ item }}
 {% endfor %}- Games are usually {{ d.games }}, subject to change based on participation
