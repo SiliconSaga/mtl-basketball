@@ -44,7 +44,7 @@ When a post goes out on Facebook or Instagram, keep it here too: *"Save today's 
 | `downloads` | Other sizes, as a list of `label` and `file` |
 | `featured_until` | Optional date; the league-wide site features the post until then |
 
-Images made for one post go in `assets/news/<post file name>/`; a post about the season flyers points at `flyers/basketball-2026/exports/` instead. Posts show on the News page and the home page, and publish two feeds: `/feed.xml` (Atom, for feed readers; the News page has one-click follow buttons) and `/news/feed.json` (JSON Feed, read by the league-wide site).
+Images made for one post go in `assets/news/<post file name>/`; a post about the season flyers points at `flyers/basketball-2026/exports/` instead. Posts show on the News page and, once there is one, the home page, and publish two feeds: `/feed.xml` (Atom, for feed readers; the News page has one-click follow buttons) and `/news/feed.json` (JSON Feed, read by the league-wide site). The news pieces (`_layouts/post.html`, `_includes/post-list.html` and `follow.html`, `_sass/_news.scss`, `news.md`, `news/feed.json`) are the same files on every MTL sport site; change them on all of them together.
 
 ## Previewing and publishing
 
