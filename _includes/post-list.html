@@ -2,6 +2,9 @@
 News post list with thumbnails, newest first. Pass limit=N to cap it.
 {%- endcomment -%}
 {%- assign limit = include.limit | default: 1000 -%}
+{%- if site.posts.size == 0 %}
+<p><em>No news posts yet. Follow below to get the first one.</em></p>
+{%- else %}
 <ul class="post-list">
 {%- for post in site.posts limit: limit %}
   <li>
@@ -16,3 +19,4 @@ News post list with thumbnails, newest first. Pass limit=N to cap it.
   </li>
 {%- endfor %}
 </ul>
+{%- endif %}
