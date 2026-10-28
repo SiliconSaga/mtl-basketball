@@ -20,7 +20,7 @@ If you think your child should play up or down a level, email [basketball.mtl@gm
 
 The season runs roughly {{ site.data.season.season_span }}.
 
-- **Registration** is open now and closes {{ site.data.season.close_date }}. The early-bird rate of {{ site.data.season.early_fee }} runs through {{ site.data.season.early_deadline }}; after that it's {{ site.data.season.fee }}.
+- **Registration** is open now and closes {{ site.data.season.close_date }}. The fee is {{ site.data.season.fee }} per player.
 - **Middle school evaluations** run on five evenings in October and November — see [Evaluations]({{ site.baseurl }}/evaluations/). Elementary players don't need one.
 - **Practices** aim to start in {{ site.data.season.practices_start }}. How often a team practices depends on its volunteer coaches' availability — about two nights a week is typical.
 - **Games** begin in {{ site.data.season.games_start }}. Elementary games are usually on Sunday afternoons; middle school games are usually on weeknights, Monday through Thursday.
@@ -52,4 +52,4 @@ Workout clothes and sneakers. The league provides the basketballs, for evaluatio
 
 ## Registration
 
-Sign-ups are all in one place on the [Register]({{ site.baseurl }}/register/) page. Registering before the early-bird deadline saves money, and registering early in general helps the coordinators plan gym time and team counts.
+Sign-ups are all in one place on the [Register]({{ site.baseurl }}/register/) page. Registering early helps the coordinators plan gym time and team counts.
