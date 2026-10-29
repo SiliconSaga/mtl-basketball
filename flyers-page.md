@@ -3,7 +3,7 @@ layout: page
 title: Flyers
 ---
 
-Season flyers, ready to print, email, or post, in two styles: generated artwork, and a "Reach for It" version with game photos.
+Season flyers, ready to print, email, or post: generated artwork, a "Reach for It" version with game photos, and a Halloween reminder.
 
 ## {{ site.data.season.name }} Season
 
@@ -24,6 +24,15 @@ The same information around two game photos: a boys game and a girls game, each 
 - [Square for Facebook or Instagram — JPEG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-reach-square.jpg)
 
 Live previews: [letter]({{ site.baseurl }}/flyers/basketball-2026/reach.html) &middot; [instagram]({{ site.baseurl }}/flyers/basketball-2026/reach-instagram.html) &middot; [square]({{ site.baseurl }}/flyers/basketball-2026/reach-square.html)
+
+## "No Tricks, Just Hoops" — Halloween reminder
+
+The registration deadline under a moon, with the ball carved as a friendly jack-o'-lantern.
+
+- [Instagram portrait — JPEG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-halloween-instagram.jpg)
+- [Square for Facebook or Instagram — JPEG]({{ site.baseurl }}/flyers/basketball-2026/exports/mtl-basketball-2026-halloween-square.jpg)
+
+Live previews: [instagram]({{ site.baseurl }}/flyers/basketball-2026/halloween-instagram.html) &middot; [square]({{ site.baseurl }}/flyers/basketball-2026/halloween-square.html)
 
 Each division carries its own QR code, pointing straight at that league's TeamSnap form.
 

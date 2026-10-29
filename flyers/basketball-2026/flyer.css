@@ -183,3 +183,37 @@ body { font-family: Oswald, "Arial Narrow", sans-serif; }
 .flyer--sq .reach-label strong { font-size: 40px; }
 .flyer--sq .reach-label span { font-size: 20px; }
 .flyer--sq.flyer--reach .qr-box { width: 128px; }
+
+/* Halloween reminder (halloween-*.html): the same facts and QR cards on a
+   night sky, with the ball carved as a friendly jack-o'-lantern under a moon.
+   Kid-friendly on purpose — bats and a grin, nothing scary. */
+.flyer--spooky {
+  position: relative;
+  background: radial-gradient(ellipse 120% 70% at 50% -5%, #4A2470 0%, #22103F 50%, #0B0618 100%);
+}
+.flyer--spooky .headline { color: var(--orange); line-height: 0.92; }
+.flyer--spooky .headline .sub { color: var(--white); font-size: 0.78em; letter-spacing: 4px; }
+.spooky-band { position: relative; width: 100%; flex: 1; min-height: 0; display: flex; align-items: center; gap: 34px; padding: 6px 60px; }
+.moon {
+  position: absolute; border-radius: 50%; background: radial-gradient(circle at 40% 38%, #FFFBE6 0%, #F7E7A6 60%, #E8CF7A 100%);
+  box-shadow: 0 0 60px 18px rgba(247,231,166,0.35);
+}
+.bat { position: absolute; display: block; }
+.spooky-band .ball { z-index: 1; }
+.spooky-band .ball img { filter: drop-shadow(0 0 34px rgba(255,170,40,0.55)) drop-shadow(0 16px 26px rgba(0,0,0,0.6)); }
+.spooky-band .facts .fact-kicker { font-size: 26px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: var(--orange-light); }
+.flyer--spooky .division-card { background: rgba(255,255,255,0.07); border-color: rgba(255,180,102,0.35); }
+.flyer--spooky .accent-bar { background: var(--orange); }
+
+.flyer--sq.flyer--spooky .headline { font-size: 104px; margin-top: 10px; }
+.flyer--sq .spooky-band .ball img { width: 300px; }
+.flyer--sq .spooky-band .moon { width: 170px; height: 170px; left: 34px; top: 4px; }
+.flyer--sq .spooky-band .fact-big { font-size: 96px; }
+.flyer--sq .spooky-band .fact-line { font-size: 26px; }
+
+.flyer--ig.flyer--spooky .headline { font-size: 132px; margin-top: 14px; }
+.flyer--ig .spooky-band .ball img { width: 380px; }
+.flyer--ig .spooky-band .moon { width: 210px; height: 210px; left: 40px; top: 10px; }
+.flyer--ig .spooky-band .fact-big { font-size: 116px; }
+.flyer--ig .spooky-band .fact-kicker { font-size: 32px; }
+.flyer--ig .spooky-band .fact-line { font-size: 30px; }
