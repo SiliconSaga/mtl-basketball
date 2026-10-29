@@ -8,6 +8,16 @@
   "_mtl": { "sport": "basketball", "site_url": "https://basketball.mountaintopleague.com/" },
   "items": [
     {
+      "id": "https://basketball.mountaintopleague.com/news/2026/10/no-tricks-just-hoops/",
+      "url": "https://basketball.mountaintopleague.com/news/2026/10/no-tricks-just-hoops/",
+      "title": "No tricks, just hoops: registration closes November 10",
+      "summary": "Boys and girls leagues for grades 4–5 and 6–8, $135 per player. Register by November 10.",
+      "content_html": "<p>Happy Halloween from MTL Basketball! No tricks here, just a reminder: registration for the Winter 2026–27 season closes <strong>November 10</strong>.</p>\n\n<p>There are boys and girls leagues for elementary (grades 4–5) and middle school (grades 6–8), and the fee is $135 per player. Practices start in December and games in January.</p>\n\n<p>Register for the <a href=\"https://registration.teamsnap.com/form/81079\">elementary league</a> or the <a href=\"https://registration.teamsnap.com/form/81126\">middle school league</a>, or start at the <a href=\"/register/\">registration page</a>.</p>\n\n<p>Middle school players also come to one short <a href=\"/evaluations/\">evaluation night</a> at Edison Middle School, any time 6:30–8:30 pm. The last one is Tuesday, November 10.</p>\n",
+      "image": "https://basketball.mountaintopleague.com/flyers/basketball-2026/exports/mtl-basketball-2026-halloween-square.jpg",
+      "date_published": "2026-10-28T00:00:00+00:00",
+      "_mtl": { "sport": "basketball", "featured_until": "2026-11-10" }
+    },
+    {
       "id": "https://basketball.mountaintopleague.com/news/2026/10/registration-reminder/",
       "url": "https://basketball.mountaintopleague.com/news/2026/10/registration-reminder/",
       "title": "Reminder: registration is open until November 10",
