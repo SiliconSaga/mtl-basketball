@@ -1,0 +1,83 @@
+{
+  "changed": [
+    "/",
+    "/contact/",
+    "/evaluations/",
+    "/faq/",
+    "/flyers-page/",
+    "/get-involved/",
+    "/gyms/",
+    "/gyms/edison/",
+    "/how-it-works/",
+    "/news/",
+    "/news/2026/10/coaches-wanted/",
+    "/news/2026/10/no-tricks-just-hoops/",
+    "/news/2026/10/registration-open/",
+    "/news/2026/10/registration-reminder/",
+    "/register/"
+  ],
+  "added": [],
+  "removed": [],
+  "groups": [
+    {
+      "exemplar": "/",
+      "identical": []
+    },
+    {
+      "exemplar": "/contact/",
+      "identical": []
+    },
+    {
+      "exemplar": "/evaluations/",
+      "identical": []
+    },
+    {
+      "exemplar": "/faq/",
+      "identical": []
+    },
+    {
+      "exemplar": "/flyers-page/",
+      "identical": []
+    },
+    {
+      "exemplar": "/get-involved/",
+      "identical": []
+    },
+    {
+      "exemplar": "/gyms/",
+      "identical": []
+    },
+    {
+      "exemplar": "/gyms/edison/",
+      "identical": []
+    },
+    {
+      "exemplar": "/how-it-works/",
+      "identical": []
+    },
+    {
+      "exemplar": "/news/",
+      "identical": []
+    },
+    {
+      "exemplar": "/news/2026/10/coaches-wanted/",
+      "identical": []
+    },
+    {
+      "exemplar": "/news/2026/10/no-tricks-just-hoops/",
+      "identical": []
+    },
+    {
+      "exemplar": "/news/2026/10/registration-open/",
+      "identical": []
+    },
+    {
+      "exemplar": "/news/2026/10/registration-reminder/",
+      "identical": []
+    },
+    {
+      "exemplar": "/register/",
+      "identical": []
+    }
+  ]
+}
